@@ -11,8 +11,6 @@ pals={
  "002244002851002e5e00356b0a407e144b921e57a62862ba3570be4682b442c0c653e5d779efe79ff9f7c6fcfff0f8ff"
 }
 
--- ChatGPT came up with the names
--- based on the color values!
 pnames={
  "Sunset Glow",
  "Deep Night",
