@@ -38,6 +38,9 @@ function chgpal()
  elseif btnp(1) then
   cpal=cpal%#pals+1
   pal(pals[cpal])
+ elseif (t+1)%180==0 then
+  cpal=cpal%#pals+1
+  pal(pals[cpal])
  end
 end
 
@@ -78,9 +81,4 @@ function TIC()
  rectb(px-1,py-1,82,22,12)
 
  t=t+1
- 
- if t%180==0 then
-  cpal=cpal%#pals+1
-  pal(pals[cpal])
- end
 end
